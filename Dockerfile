@@ -10,4 +10,5 @@ RUN /usr/bin/apt-get update && \
 COPY mongodb.conf /etc/mongodb.conf
 
 EXPOSE 27017 27018
+VOLUME ["/var/lib/mongodb"]
 CMD ["mongod", "-f", "/etc/mongodb.conf"]
