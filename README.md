@@ -14,7 +14,7 @@ the following changes:
 * bind_ip set to 0.0.0.0
 * logging to STDOUT for Docker
 
-MongoDB will listen on port 27017, with the HTTP interface on 27018 enabled. Authentication
+MongoDB will listen on port 27017, with the HTTP interface on 28017 enabled. Authentication
 is disabled.
 
 Mongo's storage directory is ``/var/lib/mongodb`` within the container, which
@@ -25,7 +25,7 @@ or mount a host directory to that point.
 
 Run detatched with ports bound to the same-numbered ports on the host:
 
-``docker run -d --name mongodb24 -p 27017:27017 -p 27018:27018 jantman/mongodb24``
+``docker run -d --name mongodb24 -p 27017:27017 -p 28017:28017 jantman/mongodb24``
 
 Run detatched with ports bound to random-numbered ports on the host:
 
@@ -34,7 +34,7 @@ Run detatched with ports bound to random-numbered ports on the host:
 Run detatched, with ``/var/lib/mongodb`` on the __host__ serving as the MongoDB
 data directory, and the ports bound to the same-numbered ports on the host:
 
-``docker run -d --name mongodb24 -v /var/lib/mongodb:/var/lib/mongodb -p 27017:27017 -p 27018:27018 jantman/mongodb24``
+``docker run -d --name mongodb24 -v /var/lib/mongodb:/var/lib/mongodb -p 27017:27017 -p 28017:28017 jantman/mongodb24``
 
 ## Building
 
