@@ -1,10 +1,14 @@
 # docker-debian-mongodb24
 
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![Project Status: Unsupported – The project has reached a stable, usable state but the author(s) have ceased all work on it. A new maintainer may be desired.](http://www.repostatus.org/badges/latest/unsupported.svg)](http://www.repostatus.org/#unsupported)
 
 Debian-based Docker image with MongoDB 2.4 server. This runs MongoDB 2.4.10,
 the version in Debian Jessie repositories (and the same version available with
 [Raspbian](https://www.raspbian.org/) for the RaspberryPi).
+
+## Deprecated / Unsupported
+
+I don't need this ancient image anymore, and don't intend on supporting it. Feel free to contact me via an issue if you'd like to.
 
 ## Configuration
 
